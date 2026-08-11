@@ -53,6 +53,8 @@ docs/                 架构、开发、插件 API 和场景格式文档
 outputs/              E2E 验收截图和导出样例
 ```
 
+## 在线体验
+http://47.109.207.74:3001/3Deditor/
 ## 快速开始
 
 安装依赖：
@@ -85,29 +87,6 @@ npm test
 npm run build
 ```
 
-## 静态部署
-
-项目已经配置为生产环境挂载到 `/3Deditor/` 子目录。
-
-执行构建后，将 `dist/` 目录作为静态资源部署到：
-
-```text
-/3Deditor/
-```
-
-Vite 配置中会在生产模式下使用 `/3Deditor/` 作为 `base`，本地开发仍然保持 `/`，因此不会影响 `npm run dev` 的使用。
-
-## 验证状态
-
-当前推荐的发布前验证命令：
-
-```bash
-npm run typecheck
-npm test
-npm run build
-```
-
-当前构建会出现 Three.js chunk 体积超过 500 kB 的 Vite warning。这来自 Three.js 本身体积和编辑器功能集中使用 3D 引擎的特点，不影响静态部署和运行。
 
 ## 设计原则
 
@@ -117,6 +96,6 @@ npm run build
 - Runtime 运行状态不污染编辑状态
 - 插件通过 PluginContext 访问编辑器能力，不直接改核心架构
 
-## License
+## 预览
+<img width="1914" height="925" alt="image" src="https://github.com/user-attachments/assets/5d12a559-72de-46f5-ad6a-55fb1ab741eb" />
 
-MIT
