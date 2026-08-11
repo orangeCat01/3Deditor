@@ -1,0 +1,13 @@
+{
+  "importedScenePresent": true,
+  "importedAssetPresent": true,
+  "consoleErrors": [],
+  "failedResponses": [],
+  "screenshots": [
+    "D:\\Study\\ProjectForStudy\\studyThree\\NiceDemos\\threeModelEditor\\outputs\\e2e\\01-home.png",
+    "D:\\Study\\ProjectForStudy\\studyThree\\NiceDemos\\threeModelEditor\\outputs\\e2e\\02-inspector-edit.png",
+    "D:\\Study\\ProjectForStudy\\studyThree\\NiceDemos\\threeModelEditor\\outputs\\e2e\\03-language-workspace.png",
+    "D:\\Study\\ProjectForStudy\\studyThree\\NiceDemos\\threeModelEditor\\outputs\\e2e\\04-runtime-export.png"
+  ],
+  "exportFile": "D:\\Study\\ProjectForStudy\\studyThree\\NiceDemos\\threeModelEditor\\outputs\\e2e\\scene.web3d.json"
+}

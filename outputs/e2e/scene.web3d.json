@@ -1,0 +1,228 @@
+{
+  "version": "1.0",
+  "scene": {
+    "rootEntities": [
+      "entity_0001",
+      "entity_0002",
+      "gltf_entity_0001"
+    ]
+  },
+  "entities": {
+    "entity_0001": {
+      "id": "entity_0001",
+      "name": "Cube",
+      "parentId": null,
+      "children": [],
+      "components": {
+        "transform": {
+          "type": "transform",
+          "position": {
+            "x": 2,
+            "y": 0.5,
+            "z": 0
+          },
+          "quaternion": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "geometry": {
+          "type": "geometry",
+          "id": "entity_0001_geometry",
+          "kind": "box",
+          "parameters": {
+            "width": 1,
+            "height": 1,
+            "depth": 1
+          }
+        },
+        "material": {
+          "type": "material",
+          "id": "entity_0001_material",
+          "name": "Cube Material",
+          "color": "#ff5533",
+          "emissive": "#000000",
+          "opacity": 1,
+          "transparent": false,
+          "alphaTest": 0,
+          "blendMode": "normal",
+          "side": "front",
+          "depthTest": true,
+          "depthWrite": true,
+          "roughness": 0.65,
+          "metalness": 0.05
+        },
+        "mesh": {
+          "type": "mesh",
+          "geometryId": "entity_0001_geometry",
+          "materialId": "entity_0001_material"
+        }
+      },
+      "editor": {
+        "visible": true,
+        "locked": false
+      }
+    },
+    "entity_0002": {
+      "id": "entity_0002",
+      "name": "cube",
+      "parentId": null,
+      "children": [],
+      "components": {
+        "transform": {
+          "type": "transform",
+          "position": {
+            "x": 0,
+            "y": 0.5,
+            "z": 0
+          },
+          "quaternion": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "geometry": {
+          "type": "geometry",
+          "id": "entity_0002_geometry",
+          "kind": "box",
+          "parameters": {
+            "width": 1,
+            "height": 1,
+            "depth": 1
+          }
+        },
+        "material": {
+          "type": "material",
+          "id": "entity_0002_material",
+          "name": "cube Material",
+          "color": "#d98b48",
+          "emissive": "#000000",
+          "opacity": 1,
+          "transparent": false,
+          "alphaTest": 0,
+          "blendMode": "normal",
+          "side": "front",
+          "depthTest": true,
+          "depthWrite": true,
+          "roughness": 0.65,
+          "metalness": 0.05
+        },
+        "mesh": {
+          "type": "mesh",
+          "geometryId": "entity_0002_geometry",
+          "materialId": "entity_0002_material"
+        }
+      },
+      "editor": {
+        "visible": true,
+        "locked": false
+      }
+    },
+    "gltf_entity_0001": {
+      "id": "gltf_entity_0001",
+      "name": "Group",
+      "parentId": null,
+      "children": [
+        "gltf_entity_0002"
+      ],
+      "components": {
+        "transform": {
+          "type": "transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "quaternion": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "customData": {
+          "type": "customData",
+          "source": "gltf",
+          "objectUuid": "cea9c2fe-4404-44f8-a649-24e16f79120a",
+          "modelAssetId": "asset_0001"
+        }
+      },
+      "editor": {
+        "visible": true,
+        "locked": false
+      }
+    },
+    "gltf_entity_0002": {
+      "id": "gltf_entity_0002",
+      "name": "ImportedNode",
+      "parentId": "gltf_entity_0001",
+      "children": [],
+      "components": {
+        "transform": {
+          "type": "transform",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "quaternion": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "customData": {
+          "type": "customData",
+          "source": "gltf",
+          "objectUuid": "da23407d-0722-41aa-819d-1b22e6602a73",
+          "modelAssetId": "asset_0001"
+        }
+      },
+      "editor": {
+        "visible": true,
+        "locked": false
+      }
+    }
+  },
+  "assets": {
+    "asset_0001": {
+      "id": "asset_0001",
+      "type": "Model",
+      "name": "minimal-node.gltf",
+      "url": "blob:http://127.0.0.1:5173/0a1afb5b-e922-432f-9e08-d7511a98ca72",
+      "metadata": {
+        "format": "gltf"
+      },
+      "references": [
+        "gltf_entity_0001",
+        "gltf_entity_0002"
+      ]
+    }
+  },
+  "settings": {}
+}
